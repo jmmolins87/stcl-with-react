@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import './wc/wc-button.js';
+import WrapButton from './wc/wc-wrap-button.js'
 
 function App() {
   return (
@@ -17,6 +19,9 @@ function App() {
         >
           Learn React
         </a>
+        {/* <WrapButton text={'Hola'}></WrapButton> */}
+        <wc-button text={"Hola"}></wc-button>
+        <WrapButton text={"Hello"}></WrapButton>
       </header>
     </div>
   );
