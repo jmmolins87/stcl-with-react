@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+// import 'wc-button';
 
 const WrapButton = ( props ) => {
     const [text, setText] = useState( props.text );

@@ -1,0 +1,8 @@
+#History folder
+.history
+
+#node_modules folder
+node_modules
+
+#BackUp MacOs
+.Ds_Store
