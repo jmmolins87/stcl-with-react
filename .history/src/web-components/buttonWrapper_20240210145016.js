@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-// ! import 'wc-button'; Descomentar en caso de querer llamar el componente de node_modules
+// import 'wc-button';
 
 const ButtonWrapper = ( props ) => {
 

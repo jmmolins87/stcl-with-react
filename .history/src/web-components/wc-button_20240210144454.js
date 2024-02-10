@@ -45,4 +45,4 @@ class Button extends LitElement {
     }
 }
 
-// window.customElements.define("wc-button", Button);
+window.customElements.define("wc-button", Button);
