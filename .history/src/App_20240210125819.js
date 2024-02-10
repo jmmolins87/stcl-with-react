@@ -20,8 +20,8 @@ function App() {
         >
           Learn React
         </a>
-        <wc-button text={ "Click me from wc" }></wc-button>
-        <ButtonWrapper text={ "Click me from Wrapper" }></ButtonWrapper>
+        <wc-button text="Click me"></wc-button>
+        <ButtonWrapper text="Click me from Button Wrapper"></ButtonWrapper>
       </header>
     </div>
   );

@@ -1,9 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
 
-import './web-components/wc-button.js';
-import ButtonWrapper from './web-components/buttonWrapper.js';
-
 function App() {
   return (
     <div className="App">
@@ -20,8 +17,6 @@ function App() {
         >
           Learn React
         </a>
-        <wc-button text={ "Click me from wc" }></wc-button>
-        <ButtonWrapper text={ "Click me from Wrapper" }></ButtonWrapper>
       </header>
     </div>
   );
